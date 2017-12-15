@@ -89,12 +89,21 @@ body {
     }
   }
   .site-description {
-    font-size: 20px;
+    font-size: 25px;
     display: block;
     line-height: 1;
     margin: 5px 0 10px 0;
     @media only screen and (min-width:$cut){
-      font-size: 40px;
+      font-size: 25px;
+    }
+  }
+  .site-text {
+    font-size: 35px;
+    display: block;
+    line-height: 1;
+    margin: 5px 0 10px 0;
+    @media only screen and (min-width:$cut){
+      font-size: 35px;
     }
   }
   .link {
