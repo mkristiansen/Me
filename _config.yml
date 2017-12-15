@@ -23,6 +23,6 @@ slack_ibm_team: T0EL66NGJ
 google-analytics:
   id: ""
 
-exclude: ['package.json', 'src' , 'node_modules', 'package-lock.json', 'yarn.lock', 'README.md', 'particle.jpg', 'gulpfile.js']
+exclude: ['package.json', 'src' , 'node_modules', 'package-lock.json', 'yarn.lock', 'README.md', 'particle.jpg', 'gulpfile.js', 'script', 'Gemfile']
 
 repository: morten/bizCard
