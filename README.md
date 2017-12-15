@@ -1,10 +1,8 @@
-# Particle Jekyll Theme
+# Morten Kristiansen's Electronic Business Card
 
-![](./particle.jpg)
+This is a simple and minimalist website built with Jekyll designed for developers that want to show of their portfolio.
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
-
-The Theme features:
+THe Theme is heavily inspured by the [Particle Theme](https://github.com/nrandecker/particle/fork). It features:
 
 - Gulp
 - SASS
@@ -18,7 +16,7 @@ The Theme features:
 ## Basic Setup
 
 1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Particle Theme](https://github.com/nrandecker/particle/fork)
+2. Fork the [repo](https://github.ibm.com/morten/bizCard/fork)
 3. Clone the repo you just forked.
 4. Edit `_config.yml` to personalize your site.
 
@@ -59,6 +57,12 @@ In order to compile the assets and run Jekyll on local you need to follow those 
 - Run `npm install`
 - Run `gulp`
 
+## Deploy the Site
+
+A Travis file (.travis.yml) and a `cibuild` script is provided to automatically deploy to github (gh-pages branch) on each push to `master`.
+
+Make sure to customize repo path and to set the GH_TOKEN value prior to enabling the repo in the Travis console.
+
 ## Questions
 
 Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
@@ -69,6 +73,4 @@ This theme is free and open source software, distributed under the The MIT Licen
 
 ## Credits
 
-This theme was partially designed with the inspiration from these fine folks
-- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
-- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+This theme is a blatant rip-off of the work by [Nathan Rendecker](https://github.com/nrandecker/particle/fork) :)
