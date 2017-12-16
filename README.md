@@ -15,7 +15,7 @@ THe Theme is heavily inspured by the [Particle Theme](https://github.com/nrandec
 
 ## Basic Setup
 
-1. [Install Jekyll](http://jekyllrb.com)
+1. Install [Jekyll](http://jekyllrb.com)
 2. Fork the [repo](https://github.ibm.com/morten/bizCard/fork)
 3. Clone the repo you just forked.
 4. Edit `_config.yml` to personalize your site.
@@ -24,7 +24,7 @@ THe Theme is heavily inspured by the [Particle Theme](https://github.com/nrandec
 
 You have to fill some informations on `_config.yml` to customize your site.
 
-```
+```yaml
 # Site settings
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -43,6 +43,7 @@ gplus_username:  lorem_ipsum
 **Don't forget to change your url before you deploy your site!**
 
 ## Color and Particle Customization
+
 - Color Customization
   - Edit the sass variables
 - Particle Customization
