@@ -1,7 +1,7 @@
 # Site settings
 title: Morten Kristiansen, Business Analyst & Technical Product Manager @ IBM
 description: A minimalistic electronic business card.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Me" # the subpath of your site, e.g. /blog
 url: 'https://mkristiansen.github.io/' # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
